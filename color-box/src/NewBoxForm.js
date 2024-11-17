@@ -46,7 +46,7 @@ const NewBoxForm = ({ addBox }) => {
         onChange={handleChange}
       />
 
-<label htmlFor="height">Height :</label>
+      <label htmlFor="height">Height :</label>
       <input
         id="height"
         type="text"
