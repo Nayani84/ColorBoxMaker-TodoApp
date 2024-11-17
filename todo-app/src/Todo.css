@@ -1,0 +1,42 @@
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Todo span {
+    font-size: 16px;
+}
+
+.Todo .Edit-btn {
+    background-color: rgb(102, 135, 243);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.Todo .Edit-btn:hover {
+    background-color: rgb(40, 8, 247);
+}
+
+.Todo .Remove-btn {
+    background-color: rgb(237, 99, 49);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.Todo .Remove-btn:hover {
+    background-color: red;
+}
+
+.Todo .btns button {
+margin-left: 10px;
+}
+
